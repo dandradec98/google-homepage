@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    width: 100%;
+    min-width: 980px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+header .top_navbar {
+    width: 290px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+header .top_navbar .login_button {
+    width: 110px;
+    height: 30px;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+}
+
+header .top_navbar div {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+header .top_navbar div a {
+    color: #222;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+header .top_navbar div a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    width: 100%;
+}
+
+.main .g_logo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.main form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.main form .searcher_box {
+    width: 500px;
+    height: 45px;
+    background: white;
+    border: 2px solid #f2f2f2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.main form .searcher_box:hover {
+    -webkit-box-shadow: 1px 2px rgb(221, 221, 221);
+    box-shadow: 1px 2px rgb(221, 221, 221);
+}
+
+.main form .searcher_box .t_search {
+    border: 0;
+    background: white;
+    outline: none;
+    width: 400px;
+}
+
+.main form div .v_search {
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.main form div .v_search img {
+    width: auto;
+    height: 100%
+}
+
+.main form div .i_button {
+    height: 40px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.main form div .i_button:hover {
+    border: 1px solid #d4d4d4;
+}
+
+.main form div .l_button {
+    width: 150px;
+}
+
+.main form div .r_button {
+    width: 170px;
+    margin-left: 10px;
+}
+
+.main .alt_language {
+    margin-top: 20px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.main .alt_language span {
+    text-align: center;
+    font-size: 13px;
+}
+
+.main .alt_language a {
+    text-decoration: none;
+}
+
+.main .alt_language a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    min-width: 980px;
+    background: #f2f2f2;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+footer .fd_container {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #e4e4e4;
+    color: rgba(0, 0, 0, .54);
+    font-family: arial, sans-serif;
+}
+
+footer .fd_container span {
+    margin-left: 25px;
+}
+
+footer .ff {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+footer .fs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+footer .fs .left_fd{
+    width: 220px;
+    margin-left: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+footer .fs .right_fd{
+    margin-right: 25px;
+    width: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+footer .fd_container div div {
+    display: inline-block;
+}
+
+footer .fd_container div div a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .54);
+    font-size: 13px
+}
+
+footer .fd_container div div a:hover {
+    text-decoration: underline;
+}
